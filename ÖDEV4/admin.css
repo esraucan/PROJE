@@ -1,0 +1,83 @@
+table{
+    columns: 4;
+    gap: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 1000px;
+    margin: 300px auto;
+}
+th{
+    background-color: rgb(147, 192, 231);
+    
+}
+.bos{
+    width: 80px;
+    background-color: rgb(147, 192, 231);
+}
+.num{
+background-color: rgb(147, 192, 231);
+text-align: center;
+height: 80px;
+}
+.baslik{
+    width: 200px;
+}
+.baslik2{
+    width: 200px;
+}
+.baslik3{
+    width: 200px;
+}
+.res{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(147, 192, 231);
+}
+.res1{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(206, 224, 240);
+}
+.yeni{
+    outline: 0;
+    background-color: rgb(147, 192, 231);
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    display: block;
+    appearance: none;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+.butongg{
+    outline: 0;
+    background-color: rgb(147, 192, 231);
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 180px;
+    font-size: 20px;
+    cursor: pointer;
+    border: solid 2px;
+
+}
+.btn:hover{
+    background-color: aqua;
+}
+th{
+    width: 200px;
+}
+.ob{
+    text-align: center;
+    background-color: rgb(147, 192, 231);
+    
+}
+tr:nth-child(odd){
+    background-color: rgb(206, 224, 240);
+}
+td:nth-child(odd){
+    background-color: rgb(147, 192, 231); 
+}

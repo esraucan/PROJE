@@ -1,0 +1,21 @@
+<script src="https://code.angularjs.org/1.2.1/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<div ng-app="myModule">
+  <div ng-controller="MyController">
+
+    <div class="highlights palette">
+      <p>
+        <span ng-repeat="c in colorInspirationClasses" class="{{c}}" ng-click="highlight($index)"></span>
+      </p>
+
+      <p>Lütfen Renk Seçiniz</p>
+      
+     
+    </div>
+    
+    <div class="target" color-inspiration ng-model="targetClass">
+      {{targetClass}}
+    </div>
+    <script src="odev.js"></script>
+  </div>
+</div>

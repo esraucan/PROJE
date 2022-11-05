@@ -1,0 +1,207 @@
+div {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  
+  .target {
+    float:left;
+    width: 300px;
+    height:250px;
+    line-height: 160px;
+    margin: 12px 24px;
+    box-shadow: 2px 2px 4px #ccc;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  div.palette {
+    float:left;
+    width: auto;
+    margin: 12px 24px;
+    
+  }
+  
+  .palette span {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5 30px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #ccc;
+    padding: 30px;
+    
+  }
+  
+  .highlights span {
+    border-radius: 4px;
+  }
+  
+  .codeED5565 {
+    background-color: #ED5565;
+    border-color: #DA4453;
+    color: #DA4453;
+  }
+  
+  .codeE9573F {
+    background-color: #FC6E51;
+    border-color: #E9573F;
+    color: #E9573F;
+  }
+  
+  .codeF6BB42 {
+    background-color: #FFCE54;
+    border-color: #F6BB42;
+    color: #F6BB42;
+  }
+  
+  .code8CC152 {
+    background-color: #A0D468;
+    border-color: #8CC152;
+    color: #8CC152;
+  }
+  
+  .code37BC9B {
+    background-color: #48CFAD;
+    border-color: #37BC9B;
+    color: #37BC9B;
+  }
+  
+  .code3BAFDA {
+    background-color: #4FC1E9;
+    border-color: #3BAFDA;
+    color: #3BAFDA;
+  }
+  
+  .code4A89DC {
+    background-color: #5D9CEC;
+    border-color: #4A89DC;
+    color: #4A89DC;
+  }
+  
+  .code967ADC {
+    background-color: #AC92EC;
+    border-color: #967ADC;
+    color: #967ADC;
+  }
+  
+  .codeD770AD {
+    background-color: #EC87C0;
+    border-color: #D770AD;
+    color: #D770AD;
+  }
+  
+  .codeE6E9ED {
+    background-color: #F5F7FA;
+    border-color: #E6E9ED;
+    color: #E6E9ED;
+  }
+  
+  .codeAAB2BD {
+    background-color: #CCD1D9;
+    border-color: #AAB2BD;
+    color: #AAB2BD;
+  }
+  
+  .code434A54 {
+    background-color: #656D78;
+    border-color: #434A54;
+    color: #434A54;
+  }
+  .code726578{
+    background-color: #726578;
+    border-color:#726578;
+    color: #726578;
+
+  }
+  .code657878{
+    background-color: #657878;
+    border-color:#657878;
+    color: #657878;
+  }
+  .codefb08c6{
+    background-color: #fb08c6;
+    border-color:#fb08c6;
+    color: #fb08c6;
+  }
+  .code3fda02{
+    background-color: #3fda02;
+    border-color:#3fda02;
+    color: #3fda02;
+  }
+  .code1e45f5{
+    background-color: #1e45f5;
+    border-color:#1e45f5;
+    color: #1e45f5;
+  }
+  .codeff630f{
+    background-color: #ff630f;
+    border-color:#ff630f;
+    color: #ff630f;
+  }
+  .codeff0f0f{
+    background-color: #ff0f0f;
+    border-color:#ff0f0f;
+    color: #ff0f0f;
+  }
+  .codefef721{
+    background-color: #fef721;
+    border-color:#fef721;
+    color: #fef721;
+  }
+  .codeb218ff{
+    background-color: #b218ff;
+    border-color:#b218ff;
+    color: #b218ff;
+  }
+  .code00e1ff{
+    background-color: #00e1ff;
+    border-color:#00e1ff;
+    color: #00e1ff;
+  }
+  .code7b2a2a{
+    background-color: #7b2a2a;
+    border-color:#7b2a2a;
+    color: #7b2a2a;
+  }
+  .codecc004b{
+    background-color: #cc004b;
+    border-color:#cc004b;
+    color: #cc004b;
+  }
+  .code2d9090{
+    background-color: #2d9090;
+    border-color:#2d9090;
+    color: #2d9090;
+  }
+  .code6f8e00{
+    background-color: #6f8e00;
+    border-color:#6f8e00;
+    color: #6f8e00;
+  }
+  .code960069{
+    background-color: #960069;
+    border-color:#960069;
+    color: #960069;
+  }
+  .codec2b808{
+    background-color: #c2b808;
+    border-color:#c2b808;
+    color: #c2b808;
+  }
+  .code0a1866{
+    background-color: #0a1866;
+    border-color:#0a1866;
+    color: #0a1866;
+  }
+  .codeb32d00{
+    background-color: #b32d00;
+    border-color:#b32d00;
+    color: #b32d00;
+  }

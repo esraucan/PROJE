@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yönlendirme</title>
+</head>
+<body>
+    <p id="result"></p>
+    <style>
+
+        p{
+            text-align: center;
+            font-size: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+            
+        }
+    </style>
+<script>
+        go("#result","admin.html",3);
+    function go(ID,Address,second){
+        if(second===0){
+            window.location.href=Address;
+            return;
+        }
+        document.querySelector(ID).textContent= second+" saniye sonra yönlendiriliyorsunuz";
+        second--;
+        setTimeout(function(){
+            go(ID,Address,second);
+        },1000); 
+    }
+</script>
+
+
+
+    
+</body>
+</html>
